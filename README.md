@@ -13,6 +13,8 @@ or
 yarn add pss-loader
 ```
 
+**Depending on the styling library you're using e.g. styled-components, we assume that it is already installed.**
+
 👨‍💻👩‍💻 [Read the tutorial on Medium (soon added)](https://medium.com/@eveningkid)
 
 ## Configure Webpack
@@ -35,6 +37,35 @@ module.exports = {
     ]
   }
 };
+```
+
+## Use it
+```sass
+// Button.pss
+button.Button {
+  // `props.theme.white`
+  color: $theme.white;
+
+  &:hover {
+    color: red;
+  }
+
+  &:isSelected {
+    // `color` set to `props.isSelectedColor` when `props.isSelected` is true
+    color: $isSelectedColor;
+  }
+}
+```
+
+```js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Button from './Button.pss';
+
+ReactDOM.render(
+  <Button>Hello World</Button>,
+  document.getElementById('root')
+);
 ```
 
 ## License
