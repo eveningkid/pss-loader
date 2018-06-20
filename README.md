@@ -5,6 +5,8 @@ Compatible css-in-js librairies:
 - [styled-components](https://www.styled-components.com)
 
 ## Install
+**Depending on the styling library you're using e.g. styled-components, we assume that it is already installed.**
+
 ```
 npm install pss-loader
 ```
@@ -12,8 +14,6 @@ or
 ```
 yarn add pss-loader
 ```
-
-**Depending on the styling library you're using e.g. styled-components, we assume that it is already installed.**
 
 👨‍💻👩‍💻 [Read the tutorial on Medium (soon added)](https://medium.com/@eveningkid)
 
