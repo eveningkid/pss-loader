@@ -15,7 +15,7 @@ or
 yarn add pss-loader
 ```
 
-👨‍💻👩‍💻 [Read the tutorial on Medium (soon added)](https://medium.com/@eveningkid)
+👨‍💻👩‍💻 [Read the tutorial on Medium](https://medium.com/@eveningkid/prop-based-styling-with-styled-components-in-react-js-b7d14a3877e4)
 
 ## Configure Webpack
 ```js
