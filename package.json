@@ -1,0 +1,24 @@
+{
+  "name": "pss-loader",
+  "version": "1.0.0",
+  "description": "Webpack Loader for PSS files",
+  "main": "src/index.js",
+  "author": {
+    "name": "Arnaud Dellinger",
+    "url": "https://github.com/eveningkid"
+  },
+  "repository": "eveningkid/pss-loader",
+  "license": "MIT",
+  "keywords": [
+    "pss",
+    "loader",
+    "webpack",
+    "lang",
+    "styled-components"
+  ],
+  "dependencies": {
+    "@webpack-contrib/schema-utils": "^1.0.0-beta.0",
+    "loader-utils": "^1.1.0",
+    "pss-lang": "^1.0.0"
+  }
+}
